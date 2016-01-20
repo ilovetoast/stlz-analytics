@@ -1,0 +1,20 @@
+{
+    "name": "stlz/analytics",
+    "description": "GA",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Steele",
+            "email": "michael@steeleimage.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.0.0@RC"
+    },
+    "autoload": {
+        "psr-0": {
+            "Analytics": "src/"
+        }
+    }
+
+}
